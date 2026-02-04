@@ -1,0 +1,11 @@
+Files covered
+CommandParser.cpp — Command parsing and CLI command implementations
+CompressionManager.cpp — Zip compress/decompress helpers (simple implementation using zlib fallback)
+DirManager.cpp — Directory operations (create, remove, list, tree, cd)
+FileManager.cpp — File operations (create, write, append, read, delete, info)
+HistoryManager.cpp — Command history buffer and persistence hooks
+PathUtils.cpp — Virtual File System (VFS) path resolution, normalization and sandboxing
+PersistenceManager.cpp — Simple persistence to JSON-like files for history/VFS/settings
+SystemInfo.cpp — Disk usage and directory traversal statistics
+WebServer.cpp — Crow-based HTTP API and static file serving (GUI)
+main.cpp — Program entry: CLI/GUI startup, argument parsing, main loop
